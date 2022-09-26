@@ -158,7 +158,7 @@ a {
   width: 100%;
   height: 4px;
   left: 0;
-  bottom: 0;
+  bottom: -1px;
   border-radius: 2px;
   transform: scalex(0);
 
@@ -743,6 +743,8 @@ a {
   background-color: transparent;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
+
+  cursor: pointer;
 }
 
 .btn-close:hover,
